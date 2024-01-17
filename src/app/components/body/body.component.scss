@@ -1,0 +1,67 @@
+@import '../../../styles.scss';
+
+.img-web-3{
+    width: 100%;
+    height: 100%;
+}
+.new{
+    color: $soft-red;
+    padding: 10px;
+}
+.target-2{
+    padding: 20px;
+    .btnReadMore{
+        text-align: center;
+        background-color: $soft-red;
+        border-color: $soft-red;
+        border-radius: none;
+        width: 40%;
+        .textBtn{
+            letter-spacing: 2px; 
+            font-weight: bold;
+        }
+    }
+}
+.target-3{
+    background-color: hsl(240, 100%, 5%);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid hsl(240, 100%, 5%);
+    h2{
+        color: $soft-red;
+    }
+    h5{
+        color: $grayish-blue;
+    }
+    p{
+        color: $grayish-blue;
+    }
+    hr{
+        color: $grayish-blue;
+        border-color: $grayish-blue;
+
+        margin: 10px;
+        border: 0.1px solid $grayish-blue;
+
+    }
+}
+.text-web{
+    font-size: 60px;
+    font-weight: bold;
+
+
+}
+.col{
+    .card{
+        .col-6{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px 0 0 10px;
+
+            }
+            
+        }
+    }
+}
